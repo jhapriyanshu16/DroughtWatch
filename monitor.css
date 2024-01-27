@@ -1,0 +1,55 @@
+.mainmonitorbody{
+  background-image: url('bg-texture.png');
+}
+.monitorsection1{
+  background-image: url('monitorsection1.jpg');
+}
+.monitorsection2,.monitorsection5{
+  background-image: url('monitorsection2.jpg');
+}
+.monitorsection3{
+  background-image: url('monitorsection3.jpg');
+}
+.monitorsection4 {
+  background-image: url('monitorsection4.jpg');
+}
+
+.topicsection {
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(49, 46, 36, 0.778);
+  background-blend-mode: darken;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 58pt;
+  line-height: 1.06;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+.monitorpdfsection{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+    margin-top: 2%;
+}
+.monitorsection6{
+  padding:40px;
+  padding-right: 10%;
+  color: black;
+  line-height: 20px;
+}
+.monitorsection6 h2{
+  text-decoration: underline;
+  margin-bottom: 18px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.monitorsection6 ul li{
+  margin-left: 15px;
+}
+
